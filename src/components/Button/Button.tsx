@@ -1,5 +1,5 @@
 import styles from './Button.module.css';
-import IconCart from './iconCart';
+import IconCart from './IconCart';
 
 const Button = () => {
   return (
