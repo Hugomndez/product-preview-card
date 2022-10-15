@@ -41,8 +41,3 @@ a {
   color: var(--Link);
   text-decoration: none;
 }
-
-.attribution {
-  font-size: var(--Copyright);
-  text-align: center;
-}

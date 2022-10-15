@@ -1,3 +1,4 @@
+import { Attribution } from 'components';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -18,17 +19,7 @@ const Home: NextPage = () => {
         Preview Gabrielle Essence Eau De Parfum A floral, solar and voluptuous
         interpretation composed by Olivier Polge, Perfumer-Creator for the House
         of CHANEL. $149.99 $169.99 Add to Cart
-        <div className='attribution'>
-          Challenge by{' '}
-          <a
-            href='https://www.frontendmentor.io?ref=challenge'
-            target='_blank'
-            rel='noreferrer'
-          >
-            Frontend Mentor
-          </a>
-          . Coded by <a href='https://hugomendez.dev'>Hugo Méndez</a>.
-        </div>
+        <Attribution />
       </main>
     </>
   );
