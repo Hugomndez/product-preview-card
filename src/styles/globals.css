@@ -19,6 +19,8 @@
   --Copyright: 1.1rem;
 
   /* Font Family */
+  --FF-Monserrat: 'Montserrat', sans-serif;
+  --FF-Frauces: 'Fraunces', serif;
 }
 
 *,
@@ -35,6 +37,7 @@ html {
 }
 
 body {
+  font-family: var(--FF-Monserrat);
   font-size: var(--Paragraph);
 }
 
