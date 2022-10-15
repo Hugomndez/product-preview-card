@@ -27,7 +27,7 @@ const Home: NextPage = () => {
           >
             Frontend Mentor
           </a>
-          . Coded by <a href='#'>Your Name Here</a>.
+          . Coded by <a href='https://hugomendez.dev'>Hugo Méndez</a>.
         </div>
       </main>
     </>

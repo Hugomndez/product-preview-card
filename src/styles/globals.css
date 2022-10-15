@@ -1,12 +1,48 @@
+:root {
+  /* COLORS */
+
+  /* Primary */
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  /* Neutral */
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+
+  --Link: hsl(228, 45%, 44%);
+
+  /*  TYPOGRAPHY */
+
+  /* Font size */
+  --Paragraph: 1.4rem;
+  --Copyright: 1.1rem;
+
+  /* Font Family */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--Paragraph);
+}
+
 a {
-  color: inherit;
+  color: var(--Link);
   text-decoration: none;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: var(--Copyright);
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
