@@ -1,0 +1,18 @@
+.button {
+  width: 295px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  border-radius: 8px;
+  border: none;
+  color: var(--White);
+  background-color: var(--Dark-cyan);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--Darker-cyan);
+}
