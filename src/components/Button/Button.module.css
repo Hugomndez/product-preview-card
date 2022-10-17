@@ -17,5 +17,15 @@
 
 .button:hover,
 .button:focus {
+  background-color: hsl(157, 36%, 37%, 0.9);
+}
+
+.button:active {
   background-color: var(--Darker-cyan);
+}
+
+@media screen and (min-width: 640px) {
+  .button {
+    width: 236px;
+  }
 }
