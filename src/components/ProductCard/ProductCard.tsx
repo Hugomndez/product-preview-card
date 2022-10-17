@@ -14,7 +14,6 @@ const ProductCard = () => {
           src='/image-product-mobile.jpg'
           alt='Perfume - Gabrielle Essence'
           decoding='async'
-          loading='eager'
         />
       </picture>
       <div className={styles.content}>
