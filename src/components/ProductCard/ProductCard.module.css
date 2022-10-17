@@ -16,7 +16,7 @@
 }
 
 .title {
-  margin-bottom: 12px;
+  margin-block-end: 12px;
   font-style: normal;
   font-weight: 500;
   font-size: 1.2rem;
@@ -27,7 +27,7 @@
 }
 
 .subTitle {
-  margin-bottom: 16px;
+  margin-block-end: 16px;
   font-style: normal;
   font-family: var(--FF-Frauces);
   font-weight: 700;
@@ -37,19 +37,19 @@
 }
 
 .description {
+  margin-block-end: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: var(--Paragraph);
   line-height: 2.3rem;
   color: var(--Dark-grayish-blue);
-  margin-bottom: 24px;
 }
 
 .pricingWrapper {
+  margin-block-end: 20px;
   display: flex;
   align-items: center;
   gap: 19px;
-  margin-bottom: 20px;
 }
 
 .discount {
@@ -89,18 +89,18 @@
   }
 
   .title {
-    margin-bottom: 20px;
+    margin-block-end: 20px;
   }
 
   .subTitle {
-    margin-bottom: 24px;
+    margin-block-end: 24px;
   }
 
   .description {
-    margin-bottom: 29px;
+    margin-block-end: 29px;
   }
 
   .pricingWrapper {
-    margin-bottom: 30px;
+    margin-block-end: 30px;
   }
 }
