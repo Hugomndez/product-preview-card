@@ -1,6 +1,7 @@
 .card {
   width: 343px;
   height: auto;
+  margin: 20px;
   border-radius: 10px;
   background-color: var(--White);
 }
